@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Toolbar
+        android:id="@+id/toolbar_account"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:title="Account"
+        android:navigationIcon="@drawable/arrow_back_black_24dp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/save_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_account"
+        android:layout_marginTop="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Posts on Phone"
+        android:fontFamily="@font/happy_monkey"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:drawablePadding="8dp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/save_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/save_post">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Chat Media on Phone"
+            android:fontFamily="@font/happy_monkey"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:drawablePadding="8dp" />
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/verify_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/save_chat">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verification Request"
+            android:fontFamily="@font/happy_monkey"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:drawablePadding="8dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/delete_acount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verify_request">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Account"
+            android:fontFamily="@font/happy_monkey"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:textColor="#D50000"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:drawablePadding="8dp" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

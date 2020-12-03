@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bg3"
+    >
+
+    <EditText
+        android:id="@+id/edt_comment"
+        android:layout_width="326dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="#A8FFD600"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:gravity="center"
+        android:hint="Type a new user name"
+        android:inputType="textMultiLine|text" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="73dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/edt_comment"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/buttonCancel"
+        android:background="@drawable/buttonssave"
+        android:text="Save"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="73dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/edt_comment"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/buttons"
+        android:text="Cancel"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

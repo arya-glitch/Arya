@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="All Places" />
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel" />
+        <device id="Nexus 6" />
+        <device id="pixel_3_xl" />
+        <target>android-28</target>
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1633907d-218b-4a75-81c1-14b98b21434a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cG8mBNUDzRysr9Zt1YhvTKkYMd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="6heavgv4by69rgee" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-10T06:01:09.573Z" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-view/home/arya/Desktop/New/app/src/main/java/com/example/chat/MyCardView.java_SELECTED" value="MyCardView" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="multi-representation-preview/home/arya/Desktop/New/app/src/main/java/com/example/chat/MyCardView.java_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Default Config" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.chat" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.chat" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.chat" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.chat.Adapter" />
+      <recent name="com.example.chat" />
+      <recent name="com.example.chat.Tabs" />
+      <recent name="com.example.chat.ProfilePostTabs" />
+      <recent name="com.example.chat.Settings" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/menu" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="New.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1633907d-218b-4a75-81c1-14b98b21434a" name="Default Changelist" comment="" />
+      <created>1590143725858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590143725858</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="531" y="252" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1600583738119">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="252" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1600583738119" />
+    <state x="303" y="154" width="824" height="491" key="AndroidCreateResourceFileDialog" timestamp="1606105130856">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="299" y="154" width="824" height="484" key="AndroidCreateResourceFileDialog/67.27.1299.741@67.27.1299.741" timestamp="1597558791864" />
+    <state x="303" y="154" width="824" height="491" key="AndroidCreateResourceFileDialog/72.27.1294.741@72.27.1294.741" timestamp="1606105130856" />
+    <state x="502" y="154" width="424" height="520" key="FileChooserDialogImpl" timestamp="1606102772436">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="454" y="125" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600583483640" />
+    <state x="502" y="154" width="424" height="520" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1606102772436" />
+    <state width="1294" height="180" key="GridCell.Tab.0.bottom" timestamp="1606105673541">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1253" height="186" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1597561632705" />
+    <state width="1294" height="180" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1606105673541" />
+    <state width="1294" height="180" key="GridCell.Tab.0.center" timestamp="1606105673540">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1253" height="186" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1597561632704" />
+    <state width="1294" height="180" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1606105673540" />
+    <state width="1294" height="180" key="GridCell.Tab.0.left" timestamp="1606105673540">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1253" height="186" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1597561632703" />
+    <state width="1294" height="180" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1606105673540" />
+    <state width="1294" height="180" key="GridCell.Tab.0.right" timestamp="1606105673540">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1253" height="186" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1597561632704" />
+    <state width="1294" height="180" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1606105673540" />
+    <state x="252" y="27" width="1022" height="737" key="SettingsEditor" timestamp="1606190274659">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="190" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600662864676" />
+    <state x="252" y="27" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1606190274659" />
+    <state x="105" y="96" width="1156" height="534" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600663000603">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="105" y="96" width="1156" height="534" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728@0.0.1366.728" timestamp="1600663000603" />
+    <state x="424" y="208" width="580" height="385" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog" timestamp="1604986829920">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="424" y="208" width="580" height="385" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog/72.27.1294.741@72.27.1294.741" timestamp="1604986829920" />
+    <state x="321" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1600662711340">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600662711340" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1597573709418" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/chat/MainActivity.java</url>
+          <line>197</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/chat/SignIn.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/chat/ProfileFragment.java</url>
+          <line>242</line>
+          <properties class="com.example.chat.ProfileFragment">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

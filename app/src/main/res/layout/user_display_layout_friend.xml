@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/usr1"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    >
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="8dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+        <RelativeLayout
+            android:id="@+id/R1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image_friend"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/user110"
+            android:background="@drawable/circleimageborder"
+            android:layout_centerVertical="true"
+            android:padding="5dp"  />
+
+
+        <TextView
+            android:id="@+id/user_profile_name_friend"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="12dp"
+
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/profile_image_friend"
+            android:layout_toRightOf="@id/profile_image_friend"
+            android:fontFamily="@font/cherry_cream_soda"
+            android:text="@string/profile_name"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:elevation="8dp"
+            />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/add_friend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_person_add_24"
+                    android:background="@drawable/buttonssave"
+                    android:text="Add"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="10dp"
+                    android:drawablePadding="8dp"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/cherry_cream_soda"
+                    android:textColor="#FFFFFF"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_centerVertical="true"
+                    android:elevation="5dp"
+                    />
+                <TextView
+                    android:id="@+id/added_friend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonssave"
+                    android:text="Added"
+                    android:padding="12dp"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/cherry_cream_soda"
+                    android:textColor="#FFFFFF"
+                    android:elevation="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="20dp"
+                    android:visibility="gone"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/check_user_display_layout_friend"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/check"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="65dp"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:id="@+id/friend_user_display_layout_friend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Friend"
+                    android:textSize="15sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginRight="14dp"
+                    android:fontFamily="@font/cherry_cream_soda"
+                    android:visibility="gone"
+
+                    />
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+</RelativeLayout>

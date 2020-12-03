@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/usr1"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="8dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+
+        <RelativeLayout
+            android:id="@+id/R1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image_friend"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/user110"
+            android:background="@drawable/circleimageborder"
+            android:padding="5dp"  />
+
+
+        <TextView
+            android:id="@+id/user_profile_name_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/profile_image_friend"
+            android:layout_toRightOf="@id/profile_image_friend"
+            android:fontFamily="@font/cherry_cream_soda"
+            android:text="@string/profile_name"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:elevation="8dp"
+            />
+
+
+                <Button
+                    android:id="@+id/accept_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="Accept"
+                    android:layout_marginRight="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/buttonsaccept"
+                    android:textColor="#FFFFFF"
+                    android:layout_centerVertical="true"
+                    android:elevation="8dp"
+                    android:textStyle="bold"
+                   />
+
+
+
+
+
+
+
+
+                <ImageView
+                    android:id="@+id/decline"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/declinerequest"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="8dp"
+                    android:elevation="8dp"
+                    />
+
+
+
+                <ImageView
+                    android:id="@+id/check_user_display_layout_request"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/check"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginRight="70dp"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:id="@+id/friend_user_display_layout_request"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Friend"
+                    android:textSize="15sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="14dp"
+                    android:fontFamily="@font/cherry_cream_soda"
+                    android:visibility="gone"
+                    />
+
+
+
+
+        </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+</RelativeLayout>

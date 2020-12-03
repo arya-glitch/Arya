@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/R0"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            tools:ignore="VectorDrawableCompat"
+            android:id="@+id/profile_image_post"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:src="@drawable/person_user"
+            android:background="@drawable/circleimageborder_black"
+             />
+
+
+        <TextView
+            android:id="@+id/user_profile_name_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/profile_image_post"
+            android:layout_toRightOf="@id/profile_image_post"
+            android:fontFamily="@font/cherry_cream_soda"
+
+            android:text="@string/profile_name"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/postmenu"
+
+            app:srcCompat="@drawable/menu_sign1"
+            android:layout_alignParentRight="true" />
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/R0"
+        android:layout_marginTop="10dp"
+        android:elevation="8dp"
+        android:background="@drawable/bg7">
+
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/R2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewpager1"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                />
+
+            <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+                android:id="@+id/dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                app:dotsColor="#00B8D4"
+                app:dotsSize="8dp"
+                android:layout_marginTop="5dp"
+                android:padding="8dp"
+                android:layout_below="@+id/viewpager1"
+
+                />
+
+
+
+            <ProgressBar
+                android:id="@+id/progressBar4"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_centerInParent="true"/>
+
+            <VideoView
+                android:id="@+id/post_video"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:visibility="gone"
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+
+                />
+            <ImageView
+                android:id="@+id/play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/play"
+                android:layout_centerInParent="true"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/R1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/R2"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/caption"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/satisfy"
+                android:text="Feeling Cool"
+                android:textColor="#000000"
+                android:textSize="18sp">
+
+            </TextView>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/R3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RT">
+
+        <ImageView
+            android:id="@+id/lit"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/gray_lit_icon"/>
+
+        <ImageView
+            android:id="@+id/comment"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="72dp"
+            android:layout_marginLeft="72dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/comment_img_black" />
+
+        <ImageView
+            android:id="@+id/send_post"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="135dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/send_post1" />
+        <TextView
+            android:id="@+id/comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="0 Comments"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/happy_monkey"
+            android:layout_alignParentRight="true"></TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/R4"
+        android:layout_below="@+id/R3"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="0 Lits"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/happy_monkey"
+            ></TextView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

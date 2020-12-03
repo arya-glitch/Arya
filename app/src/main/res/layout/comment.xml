@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/R-1"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg3"
+
+    >
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp">
+
+
+    <RelativeLayout
+        android:id="@+id/R"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg3"
+        >
+
+    <RelativeLayout
+        android:id="@+id/R0"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            tools:ignore="VectorDrawableCompat"
+            android:id="@+id/profile_image_post"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_person_black_24dp"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="1dp" />
+
+
+        <TextView
+            android:id="@+id/user_profile_name_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/profile_image_post"
+            android:layout_toRightOf="@id/profile_image_post"
+            android:fontFamily="@font/cherry_cream_soda"
+            android:text="@string/profile_name"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/R1"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/R0">
+
+        <TextView
+            android:id="@+id/caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/happy_monkey"
+            android:text="Feeling cool"
+            android:textSize="18sp">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/R2"
+        android:layout_below="@+id/R1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <VideoView
+            android:id="@+id/videopost_comment"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager1"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_margin="10dp"
+            />
+
+        <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+            android:id="@+id/dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/viewpager1"
+            app:dotsColor="#00B8D4"
+            app:dotsSize="8dp"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar4"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="174dp"
+            android:layout_marginEnd="184dp"
+            android:layout_marginRight="184dp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/R3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/R2">
+
+        <ImageView
+            android:id="@+id/lit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+
+            android:background="@drawable/lit2"/>
+
+        <ImageView
+            android:id="@+id/send_post"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/send_post1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/R4"
+        android:layout_below="@+id/R3"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="0 Lits"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:fontFamily="@font/happy_monkey"
+            ></TextView>
+        <TextView
+            android:id="@+id/comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="0 Comments"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:textColor="#000000"
+            android:fontFamily="@font/happy_monkey"
+            android:layout_alignParentRight="true"></TextView>
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/comment_recylerview"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/R4"
+        android:layout_height="match_parent"
+        android:background="#BAFFFFFF"/>
+</RelativeLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/button_message_activity"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg"
+        android:padding="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_pic_commentator"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+
+            android:src="@drawable/ic_person"
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="1dp" />
+
+        <EditText
+            android:id="@+id/text_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btn_send"
+            android:background="@drawable/typetext"
+            android:hint="Leave a comment" />
+
+        <ImageButton
+            android:id="@+id/btn_send"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/sendcomment"></ImageButton>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
+
+
+
+

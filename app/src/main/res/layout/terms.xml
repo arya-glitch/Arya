@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms For Username"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:fontFamily="@font/happy_monkey"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/rule1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Username should not conatin spaces"
+        android:fontFamily="@font/happy_monkey"
+        android:layout_below="@+id/tt"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/rule2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Username should only start with an Alphabet "
+        android:fontFamily="@font/happy_monkey"
+        android:layout_below="@+id/rule1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/rule3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Username shold only conatin Alphabets (lower or upper),Under score and Digits."
+        android:fontFamily="@font/happy_monkey"
+        android:layout_below="@+id/rule2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/rule4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/happy_monkey"
+        android:text="* No two users can have same username"
+        android:layout_below="@+id/rule3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/rule5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/happy_monkey"
+        android:text="* Username should not contain Spaces"
+        android:layout_below="@+id/rule4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18sp"/>
+
+
+
+    <TextView
+        android:id="@+id/understand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/happy_monkey"
+        android:text="YES ,I GET IT "
+        android:background="@drawable/bg4"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:layout_below="@+id/rule5"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"/>
+
+
+
+
+
+
+
+</RelativeLayout>

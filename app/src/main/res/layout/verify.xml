@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Verification link has been sent to your mail please click on the link to verify your email id."
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/happy_monkey"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar10"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="369dp"
+        android:layout_height="305dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="172dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="275dp"
+        android:layout_height="145dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="250dp"
+        app:srcCompat="@drawable/logo4" />
+
+    <TextView
+        android:id="@+id/verifying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verifying...."
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/happy_monkey"
+        android:layout_below="@id/progressBar10"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/didntrecieve"
+        android:layout_below="@+id/detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Didn't receive mail? "
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/happy_monkey"/>
+
+
+    <TextView
+        android:id="@+id/resend"
+        android:layout_toRightOf="@+id/didntrecieve"
+        android:layout_below="@+id/detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Resend"
+        android:textSize="20sp"
+        android:textColor="@color/dark_blue"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/happy_monkey"/>
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_toRightOf="@+id/resend"
+        android:layout_below="@+id/detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="00:00"
+        android:textSize="20sp"
+        android:textColor="#00C853"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/happy_monkey"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/done_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verifying"
+        android:layout_marginLeft="-313dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/resend"
+        android:fontFamily="@font/happy_monkey"
+        android:text="Click Done If You Verified with the link sent on email"
+        android:textColor="#00C853"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:textColor="@color/white"
+        android:background="@drawable/bg4"
+        android:layout_below="@+id/done_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+
+
+</RelativeLayout>

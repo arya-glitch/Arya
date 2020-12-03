@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg8" >
+
+    <EditText
+        android:id="@+id/username_sign_in"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:autofillHints=""
+        android:background="@drawable/bg3"
+        android:fontFamily="@font/happy_monkey"
+        android:paddingLeft="10dp"
+        android:ems="10"
+        android:maxLines="1"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:layout_above="@id/dob"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/naam"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:maxLines="1"
+        android:hint="Name"
+        android:background="@drawable/bg3"
+        android:fontFamily="@font/happy_monkey"
+        android:paddingLeft="10dp"
+        android:inputType="textPersonName"
+        android:layout_above="@id/username_sign_in"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/happy_monkey"
+        android:text="Gender"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/dob"
+       android:layout_marginTop="30dp"
+        android:layout_marginLeft="110dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.354"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg3"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:padding="8dp"
+        android:text="Next"
+        android:layout_below="@+id/radiogp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg3"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="dd/MM/yyyy"
+        android:paddingLeft="8dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:maxLines="1"
+        android:fontFamily="@font/happy_monkey"
+        android:layout_centerInParent="true" />
+
+    <RadioGroup
+        android:id="@+id/radiogp"
+        android:layout_width="115dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        android:layout_below="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/happy_monkey"
+            android:text="Male"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.341"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.566" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/happy_monkey"
+            android:text="Female"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/terms"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329"
+        android:layout_toRightOf="@+id/username_sign_in"
+        android:layout_above="@+id/dob"
+        android:layout_marginBottom="45dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/terms" />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/everyone"
+        android:title="Everyone" />
+    <item
+        android:id="@+id/friends"
+        android:title="My Friends" />
+
+    <item
+        android:id="@+id/onl_me"
+        android:title="Only me" />
+    <item
+        android:id="@+id/select_people"
+        android:title="Select People" />
+
+
+</menu>

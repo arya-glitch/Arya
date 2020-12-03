@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg8" >
+
+
+    <EditText
+
+        android:id="@+id/phone_no"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg3"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/sendotp_button"
+        android:layout_marginBottom="40dp"
+        android:drawableLeft="@drawable/phone"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/happy_monkey"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg3"
+        android:fontFamily="@font/happy_monkey"
+        android:padding="10dp"
+        android:text="+91"
+        android:textSize="18sp"
+        android:layout_toLeftOf="@+id/phone_no"
+        android:layout_above="@+id/sendotp_button"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="10dp"
+  />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+        android:background="@drawable/bg3"
+        android:fontFamily="@font/happy_monkey"
+        android:padding="10dp"
+        android:text="00:00"
+        android:layout_below="@+id/phone_no"
+        android:layout_toRightOf="@+id/sendotp_button"
+        android:textColor="#00C853"
+        android:textSize="18sp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/sendotp_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg3"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:padding="10dp"
+        android:text="Send OTP"
+        android:layout_above="@+id/otp"
+        android:layout_marginBottom="40dp"
+        android:layout_centerInParent="true"
+      />
+
+
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg3"
+        android:ems="10"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/happy_monkey"
+        android:hint="Enter OTP"
+        android:inputType="phone"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/security"
+        android:drawablePadding="8dp" />
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg3"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:padding="10dp"
+        android:text="Login"
+        android:layout_below="@+id/otp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="23dp"
+    android:height="23dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512"
+   >
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72 144c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.299 72-72 72zm0-112c-22.056 0-40 17.944-40 40s17.944 40 40 40 40-17.944 40-40-17.944-40-40-40z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72 328c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.299 72-72 72zm0-112c-22.056 0-40 17.944-40 40s17.944 40 40 40 40-17.944 40-40-17.944-40-40-40z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72 512c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.299 72-72 72zm0-112c-22.056 0-40 17.944-40 40s17.944 40 40 40 40-17.944 40-40-17.944-40-40-40z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M440 144h-192c-39.701 0-72-32.299-72-72s32.299-72 72-72h192c39.701 0 72 32.299 72 72s-32.299 72-72 72z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M440 328h-192c-39.701 0-72-32.299-72-72s32.299-72 72-72h192c39.701 0 72 32.299 72 72s-32.299 72-72 72z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M440 512h-192c-39.701 0-72-32.299-72-72s32.299-72 72-72h192c39.701 0 72 32.299 72 72s-32.299 72-72 72z" />
+</vector>

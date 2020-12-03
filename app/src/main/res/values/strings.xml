@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Arya</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign up</string>
+    <string name="password">Password</string>
+    <string name="facebook_app_id">2627433160859706</string>
+    <string name="fb_login_protocol_scheme">fb2627433160859706</string>
+    <string name="xyz">XYZ</string>
+    <string name="xyz_abccom">xyz@abccom</string>
+    <string name="update_picture">Update Picture</string>
+    <string name="save">Save</string>
+    <string name="user_name">user name</string>
+    <string name="user_status">user_status</string>
+    <string name="main_fragment">Main Fragment</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="load_fragment">LOAD FRAGMENT</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="hello">hello</string>
+    <string name="todo">TODO</string>
+    <string name="status">(Status)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

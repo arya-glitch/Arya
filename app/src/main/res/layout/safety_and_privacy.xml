@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Toolbar
+        android:id="@+id/toolbar_safety"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:title="Safety and Privacy"
+        android:navigationIcon="@drawable/arrow_back_black_24dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_safety">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/R0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account Privacy"
+            android:fontFamily="@font/happy_monkey"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:drawablePadding="8dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/standard"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/R0">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Standard"
+        android:fontFamily="@font/happy_monkey"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:drawablePadding="8dp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/standard1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/R0"/>
+
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/standard">
+
+        <RelativeLayout
+            android:id="@+id/custom_R1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+        <TextView
+            android:id="@+id/Custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom"
+            android:fontFamily="@font/happy_monkey"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:drawablePadding="8dp" />
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginRight="10dp"
+            />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/custom_R2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"></RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/custom_R0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/custom_R1"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/who_can_see_dp_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* Who Can See Your DP"
+                android:fontFamily="@font/happy_monkey"
+                android:layout_marginTop="25dp"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:id="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Everyone"
+                android:fontFamily="@font/happy_monkey"
+                android:layout_below="@+id/who_can_see_dp_text"
+                android:textSize="16sp"
+                android:background="@drawable/bg12"
+                android:padding="10dp"
+                android:drawableEnd="@drawable/down_arrow"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:drawablePadding="8dp" />
+
+
+            <TextView
+                android:id="@+id/who_can_see_post_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* Who Can See Your Post"
+                android:fontFamily="@font/happy_monkey"
+                android:layout_below="@+id/a"
+                android:layout_marginTop="25dp"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:drawablePadding="8dp" />
+            <TextView
+                android:id="@+id/b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Everyone"
+                android:fontFamily="@font/happy_monkey"
+                android:textSize="16sp"
+                android:background="@drawable/bg12"
+                android:padding="10dp"
+                android:layout_below="@+id/who_can_see_post_text"
+                android:drawableEnd="@drawable/down_arrow"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:id="@+id/who_can_send_message_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* Who Can Send You Messages"
+                android:fontFamily="@font/happy_monkey"
+                android:layout_below="@+id/b"
+                android:layout_marginTop="25dp"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:id="@+id/c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Everyone"
+                android:fontFamily="@font/happy_monkey"
+                android:textSize="16sp"
+                android:background="@drawable/bg12"
+                android:padding="10dp"
+                android:layout_below="@+id/who_can_send_message_text"
+                android:drawableEnd="@drawable/down_arrow"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:id="@+id/who_can_see_friend_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* Who Can See Your Firends"
+                android:fontFamily="@font/happy_monkey"
+                android:layout_below="@+id/c"
+                android:layout_marginTop="25dp"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:id="@+id/d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Everyone"
+                android:fontFamily="@font/happy_monkey"
+                android:textSize="16sp"
+                android:background="@drawable/bg12"
+                android:padding="10dp"
+                android:layout_below="@+id/who_can_see_friend_text"
+                android:drawableEnd="@drawable/down_arrow"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:drawablePadding="8dp" />
+
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/blocked_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/custom"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blocked Users"
+            android:fontFamily="@font/happy_monkey"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:drawablePadding="8dp" />
+    </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/restricted_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/blocked_user"
+               >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Restricted Users"
+                    android:fontFamily="@font/happy_monkey"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20sp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:drawablePadding="8dp" />
+            </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

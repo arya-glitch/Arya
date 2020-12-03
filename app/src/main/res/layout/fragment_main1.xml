@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/abcd"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6"
+    android:layout_marginTop="?attr/actionBarSize">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="15dp"
+        app:srcCompat="@drawable/add"
+        app:backgroundTint="#FFFFFF"
+        android:layout_alignParentRight="true" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        app:tabIndicatorColor="@color/white"
+        android:visibility="gone"
+        android:layout_alignParentTop="true">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/friend_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout= "@layout/tab_layout_friend_post"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/verify_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout="@layout/tab_layout_verified_post" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager_post"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tablayout_post" />
+
+
+</RelativeLayout>

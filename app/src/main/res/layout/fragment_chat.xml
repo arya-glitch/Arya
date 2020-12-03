@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="80dp"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:id="@+id/Rstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/R1chat"
+        >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chatdp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/downarrow"
+        android:src="@drawable/user110"
+        android:background="@drawable/circleimageborder"
+        android:padding="5dp"
+
+        />
+        <ImageView
+            android:id="@+id/downarrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/arrow_down"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/greenDot"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="-12dp"
+        android:layout_marginTop="36dp"
+        android:layout_toRightOf="@+id/chatdp"
+        android:src="@drawable/greendot" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_online_users"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:layout_toRightOf="@+id/Rstatus"
+        android:layout_below="@+id/R1chat"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyler_view"
+        android:layout_below="@+id/Rstatus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layoutAnimation="@anim/layout_animation_down_to_up"
+        android:layout_marginBottom="0dp"></androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/chat_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_centerInParent="true"
+        >
+
+        <ImageView
+            android:id="@+id/post_img"
+            android:layout_width="120dp"
+            android:layout_height="180dp"
+            android:src="@drawable/chat_icon"
+
+            />
+        <TextView
+
+            android:layout_below="@+id/post_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/cherry_cream_soda"
+            android:text="Chats">
+
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0091EA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/add_picture"
+        android:fontFamily="@font/happy_monkey"
+        android:text="Choose a Profile Picture"
+        android:layout_marginBottom="80dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/add_picture"
+        android:layout_width="273dp"
+        android:layout_height="246dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/addcircle" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/add_picture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/dont_want"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg3"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:padding="10dp"
+        android:text="Set Default Picture"
+        android:layout_below="@+id/add_picture"
+        android:layout_marginTop="65dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+</RelativeLayout>

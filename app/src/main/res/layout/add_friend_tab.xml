@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/people_you_may_know"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="People You May Know"
+        android:textSize="23sp"
+        android:fontFamily="@font/happy_monkey"
+        android:layout_margin="20dp"
+        android:textColor="#000000"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/userList"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_below="@+id/people_you_may_know"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="horizontal"/>
+
+
+    <TextView
+        android:id="@+id/suggestions"
+        android:layout_below="@+id/userList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suggested for You"
+        android:textSize="23sp"
+        android:fontFamily="@font/happy_monkey"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#000000"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/userList1"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        tools:listitem="@layout/griduser"
+        android:layout_below="@+id/suggestions"
+        android:layout_marginTop="20dp"
+       />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

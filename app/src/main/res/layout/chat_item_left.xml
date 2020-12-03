@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+
+
+<RelativeLayout
+    android:id="@+id/R0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/time_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16 Aug 2020"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/happy_monkey"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:drawablePadding="7dp"
+        android:background="@drawable/bgtime"
+        android:visibility="gone"
+       />
+
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/R1"
+    android:layout_below="@+id/R0"
+    android:layout_width="wrap_content"
+    android:layout_marginRight="50dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/Rm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/RI"
+            android:layout_toRightOf="@+id/profile_image_chat_item_left"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_left2">
+
+            <RelativeLayout
+                android:id="@+id/Rx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/progressBar6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="75dp"
+                android:visibility="gone"
+
+                />
+
+
+            <ImageView
+                android:id="@+id/image_message"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:layout_margin="6dp"
+                android:visibility="gone"
+
+                ></ImageView>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gif_message"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:visibility="gone"
+                    ></pl.droidsonroids.gif.GifImageView>
+
+
+
+                <VideoView
+                android:id="@+id/video_message"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone"
+                ></VideoView>
+            </RelativeLayout>
+
+            <TextView
+
+                android:id="@+id/image_message_text"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Rx"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/happy_monkey"
+                android:text="Ye dekh bhai"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:visibility="gone"
+
+                />
+        </RelativeLayout>
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_person"
+        android:id="@+id/profile_image_chat_item_left"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="1dp"/>
+
+        <TextView
+            android:id="@+id/show_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/profile_image_chat_item_left"
+            android:layout_toRightOf="@+id/profile_image_chat_item_left"
+            android:background="@drawable/background_left"
+            android:padding="8dp"
+            android:text="hello"
+            android:textColor="#000000"
+            android:fontFamily="@font/happy_monkey"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Rm">
+        <ImageView
+            android:id="@+id/seen_icon"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/seen"
+            android:visibility="gone"
+            />
+
+
+        <ImageView
+            android:id="@+id/delivered"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/unseen"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
+</RelativeLayout>
